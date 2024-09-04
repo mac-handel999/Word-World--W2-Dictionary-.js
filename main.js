@@ -25,7 +25,7 @@ btn.addEventListener('click', () => {
           </button>
           </div><br>
           
-          <lable>Part Of Speech/Phonetics:</label>
+          <label>Part Of Speech / Phonetics:</label>
           <br>
           
           <br>
@@ -35,13 +35,13 @@ btn.addEventListener('click', () => {
             </small>
           </p><br>
           
-          <lable>Meaning:</label>
+          <label>Meaning:</label>
           <br>
           
           <br>
           <p class="meaning">  ${definition.definition}</p><br>
           
-          <lable>Example:</label>
+          <label>Example:</label>
           <br>
           
           <br>

@@ -50,10 +50,11 @@ body {
   padding: 8px;
   outline: none;
   border: none;
-  border-bottom: 2px solid indianred;
+  border-bottom: 5px solid indianred;
+  border-left: px solid indianred;
   border-radius:5px; 
-  background: #000;
-  color: #fff;
+  background: #fff;
+  color: #000;
 }
 
 .search-btn {
@@ -116,8 +117,19 @@ a {
   margin: 3px;
   padding: 3px;
   font-size: 1.5rem;
-  border: 2px solid #fff;
+  border: 2px solid indianred;
   border-radius: 5px;
+}
+
+label {
+  margin: 2px;
+  padding: 6px;
+  border-left: 5px solid #fff;
+  border-top: 4px solid #fff;
+  border-radius: 2px;
+  color: indianred;
+  box-shadow: 2px 2px 2px 2px black;
+  
 }
 
 .footer {
