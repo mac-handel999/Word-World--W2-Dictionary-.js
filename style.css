@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+    font-size: 15pt;
+    font-family: "paradise", 'Times New Roman', Times, serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightpink;
+    
+}
+
+.logo {
+  margin: 2px;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.container {
+  margin: 8px;
+  padding: 8px;
+  background-color: lightpink;
+  
+ 
+}
+.text-1 {
+  color: palevioletred;
+  font-size: 1.4rem;
+}
+
+.text-2 {
+  color: lightpink;
+  
+}
+
+.search-bar {
+  margin: 8px;
+  padding: 7px;
+  background: #fff;
+  border-radius:20px;
+  box-shadow: 2px 3px 2px 3px black;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.input {
+  margin: 3px;
+  padding: 8px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid indianred;
+  border-radius:5px; 
+  background: #000;
+  color: #fff;
+}
+
+.search-btn {
+  margin:3px;
+  padding: 8px;
+  outline: none;
+  border: 2px solid indianred;
+  border-radius: 20px;
+  background: #000;
+  color: #fff;
+  
+}
+
+
+.part-of {
+  border-left: 4px solid #fff;
+  border-bottom: 2px solid #fff;
+  border-radius: 2px;
+  padding: 6px;
+  color: #fff;
+}
+
+.sign-text {
+  color: blue;
+  margin: 3px;
+  padding: 3px;
+}
+
+.meaning {
+  margin: 2px;
+  padding: 6px;
+  border-left: 4px solid #fff;
+  border-bottom: 2px solid #fff;
+  border-radius: 2px;
+  color: #fff;
+}
+
+.sentence {
+  margin: 2px;
+  padding: 6px;
+  border-left: 4px solid #fff;
+  border-bottom: 2px solid #fff;
+  border-radius: 2px;
+  color: #fff;
+  
+}
+
+a {
+  color: #000;
+}
+
+.word-div {
+  margin: 3px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.word-sound {
+  margin: 3px;
+  padding: 3px;
+  font-size: 1.5rem;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+.footer {
+  text-align: center;
+  color:wheat;
+  background-color: #fff;
+  word-wrap: wrap;
+  overflow: hidden;
+}
+  
